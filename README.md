@@ -59,9 +59,15 @@ npm install react-currency-format
 ```
 
 **For Cloud Functions**
+Should be installed in functions folder
 ```Node.js
-npm install axios
+npm install cors express firebase-admin firebase-functions stripe
 ```
+ for Frontend
+ 
+ ```Node.js
+ npm install axios
+ ```
 
 `axios` would be responsible for the working of cloud function as well as Frontend to backend Connection. It Will handle all the payment request and act as bridge between stripe(For payment) and the application.
 
