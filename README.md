@@ -59,7 +59,10 @@ npm install react-currency-format
 ```
 
 **For Cloud Functions**
+
+
 Should be installed in functions folder
+
 ```Node.js
 npm install cors express firebase-admin firebase-functions stripe
 ```
